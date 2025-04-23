@@ -1,13 +1,13 @@
-import React, { useContext} from "react";
+import React from "react";
 import "./twitter.scss";
-import Loading from "../loading/Loading";
+// import Loading from "../loading/Loading";
 // import {TwitterTimelineEmbed} from "react-twitter-embed";
 import {twitterDetails} from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
+// import StyleContext from "../../contexts/StyleContext";
 
 // const renderLoader = () => <Loading />;
-const cantDisplayError =
-  "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+// const cantDisplayError =
+//   "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
 // function timeOut() {
 //   setTimeout(function () {
